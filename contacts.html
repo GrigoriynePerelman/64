@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>"64". Наши контакты</title>
+        <meta name="description" content='Наши контакты. Сайт "64"'>
+        <meta http-equiv="X-Frame-Options" content="DENY">
+    </head>
+    <body>
+        <!--=========================Меню======================-->
+        <header>
+            <img src="img/main.png" width="150" height="100" alt="Логотип нашего сайта - сайт 64">
+            <p>Твой путеводитель по миру шахмат. Изучай историю, разбирай теорию, знакомься с великими чемпионами и находи лучшие ресурсы для игры.</p>
+            <p><a href="index.html#index">На главную</a></p>
+        </header>
+        <nav>
+            <details>
+            <summary><b>Наше меню</b></summary>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="history.html">История</a></li>
+                    <li><a href="rules.html">Правила</a></li>
+                    <li><a href="players.html">Шахматисты</a></li>
+                    <li><a href="games.html">Партии</a></li>
+                    <li><a href="glossary.html">Словарь шахматных терминов</a></li>
+                    <li><a href="resources.html">Ресурсы</a></li>
+                    <li><a href="about.html">О нас.</a></li>
+                    <li><a href="contacts.html">Наши контакты.</a></li>
+                </ul>
+            </details>
+        </nav>
+        <main>
+        <!--=========================Заголовок сайта======================-->      
+            <h1>Наши контакты.</h1>
+            <p><a href="tel:+79000000000">Позвоните нам 8-900-000-00-00</a></p>
+            <p><a href="mailto:info@example.com">Написать нам</a></p>
+            <br>
+            <form action="" method="post">
+                <textarea name="otzyv" placeholder="Как Вам наш сайт?" id="poletext" rows="6"></textarea>
+                <label for="poletext">Напишите отзыв</label>
+                <br>
+                <input type="email" name="pochta" placeholder="Видна только нам и вам" id="poleemail">
+                <label for="poleemail">Укажите email для обратной связи</label>
+                <br>
+                <input type="tel" name="telephone" placeholder="Виден только нам" id="poletel">
+                <label for="poletel">Укажите телефон для обратной связи</label>
+                <br>
+                <input type="number" name="otchenka1" placeholder="Ваша оценка" id="polenumber" min="2" max="5">
+                <label for="polenumber">Вы можете поставить нам оценку</label>
+                <br>
+                <input type="date" name="kogda" placeholder="Когда отправили" id="poledate">
+                <label for="poledate">Поставьте сегодняшнее число</label>
+                <br>
+                <input type="checkbox" name="hochu_otvet" placeholder="hochu_otvet" id="polecheckbox">
+                <label for="polecheckbox">Поставьте галочку, если Вам нужен наш ответ на ваш отзыв</label>
+                <br>
+                <label for="5">Оцените нас:</label>
+                <br>
+                <input type="radio" name="otchenka2" value="no_udovlet" id="radio2">
+                <label for="radio2">Плохо</label>
+                <input type="radio" name="otchenka2" value="udovlet" id="radio3">
+                <label for="radio3">Удовлетворительно</label>
+                <input type="radio" name="otchenka2" value="horocho" id="radio4">
+                <label for="radio4">Хорошо</label>
+                <input type="radio" name="otchenka2" value="otlichno" id="radio5">
+                <label for="radio5">Отлично</label>
+                <br>
+                <label>Какой раздел сайта Вам понравился больше всего</label>
+                <br>
+                <select name="Razdel" id="polerazdel">
+                    <optgroup label="Краткая история шахмат">
+                    <option value="history_origin">История в Индии</option>
+                    <option value="history-persia">История в Персии и у арабов</option>
+                    <option value="history-europe">История в Средневековой Европе</option>
+                    <option value="history-champions">История эпохи чемпионов</option>
+                    <option value="history-computers">История игры с машинами</option>
+                    <option value="history-europe">История эпохи онлайн-игр</option>
+                    </optgroup>
+                    <option value="players">Великие игроки</option>
+                    <option value="resources">Описание сторонних ресурсов</option>
+                    <option value="rules">Правила шахматной игры</option>
+                    <option value="gemes">Знаменитые партии</option>
+                </select>
+                <br>
+                <input type="reset" value="Очистить все поля">
+                <button type="submit">Отправить</button>
+                <hr>
+                <button type="button" aria-label="Закрыть форму">x</button>
+            </form>
+        </main>
+        <!--==============================Подвал==========================-->
+        <footer>
+            <p><em><strong>64</strong> — учебный проект о шахматах.</em></p>
+            <p><em>Сделано с ♥ на HTML, CSS и JavaScript, 2026</em></p>
+            <p><a href="#top">⬆️На верх</a></p>
+        </footer>
+    </body>
+</html>
