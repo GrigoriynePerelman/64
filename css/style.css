@@ -61,3 +61,7 @@ button {
 .button {
     background-color: #b58863;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
