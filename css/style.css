@@ -1,0 +1,63 @@
+body {
+    background-color:rgb(247, 248, 176);
+    margin: 0; /* Убираем стандартные отступы браузера (изучим в главе 18) */
+    padding: 20px; /* Добавляем немного воздуха по краям (изучим в главе 18) */
+}
+header {
+    background-color:rgba(250, 247, 247, 1.0);
+    text-align:right;
+}
+nav {
+    font-size: 20px; 
+    background-color:#86a866;
+}
+h1 {
+    font-family: "Times New Roman", Arial, monospace;
+    font-size: 24px; 
+    font-weight: 800;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+h2 {
+    font-family: "Times New Roman", Arial, monospace;
+    font-size: 23px; 
+    font-weight: 700;
+    color:rgb(0, 0, 0);
+    text-align: center;
+} 
+h3 {
+    font-family: "Times New Roman", Arial, monospace;
+    font-size: 23px; 
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+span {
+    color:rgba(148, 0, 0, 0.83);
+}
+main {
+    font-size: 20px;
+    font-weight: 200;
+}
+p {
+    text-align: left;
+    font-size: 20px;
+    color: #333;
+}
+a {
+    text-decoration: underline;
+}
+div {
+    text-align: center;
+}
+.interes_fact {
+    font-style: italic;
+    font-size: 18px;
+    background-color: #c5e286;
+}
+button {
+    background-color: #b58863;
+}
+.button {
+    background-color: #b58863;
+}
