@@ -18,6 +18,17 @@ header {
     height: 20%;
     z-index: 2
 }
+ .for_header {
+    background-color:lch(96.91% 1.77 19.16);
+    text-align:top;
+    display: inline;
+    position: sticky;
+    left: 0%;
+    right:0%;
+    top: 0%;
+    height: 20%;
+    z-index: 2
+ }
 
 nav {
     display: inline-block;
@@ -25,7 +36,7 @@ nav {
     background-color:#86a866;
     width: 20%;  
     vertical-align: top;
-    right: 20px;
+    right: 7%;
     position: sticky;
     left: 0%;
     top: 20%;
