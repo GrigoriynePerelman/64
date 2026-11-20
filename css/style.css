@@ -12,7 +12,7 @@ header {
     background-color:lch(96.91% 1.77 19.16);
     text-align:top;
     position: sticky;
-    left: 0%;
+    left: 20%;
     right:0%;
     top: 0%;
     height: 20%;
@@ -21,7 +21,7 @@ header {
  .for_header {
     background-color:lch(96.91% 1.77 19.16);
     text-align:top;
-    display: block;
+    display: inline-block;
     position: sticky;
     left: 0%;
     right:0%;
@@ -37,7 +37,7 @@ nav {
     overflow: auto;
     width: 20%;  
     vertical-align: top;
-    right: 7%;
+    right: 20%;
     position: sticky;
     left: 0%;
     top: 20%;
