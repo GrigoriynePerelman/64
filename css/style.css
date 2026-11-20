@@ -21,7 +21,7 @@ header {
  .for_header {
     background-color:lch(96.91% 1.77 19.16);
     text-align:top;
-    display: inline;
+    display: block;
     position: sticky;
     left: 0%;
     right:0%;
@@ -34,6 +34,7 @@ nav {
     display: inline-block;
     font-size: 24px; 
     background-color:#86a866;
+    overflow: auto;
     width: 20%;  
     vertical-align: top;
     right: 7%;
